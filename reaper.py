@@ -14,9 +14,9 @@ def get_prefix(bot, message):
 
     return prefixes[str(message.guild.id)]
 
-bot = commands.Bot(command_prefix = get_prefix)
+bot = commands.Bot(command_prefix = ".", get_prefix)
 status = cycle(['Status 1', 'Status 2'])
-TOKEN = "ODY0NzUzNjMyNTY2MTgxODg4.YO6ClA.wVZFLxhO-TiA5UrGamnqUkxWg3c"
+TOKEN = "TOKEN"
 players = {}
 
 # Bot is online
